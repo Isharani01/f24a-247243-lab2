@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: navy;
+}
+#contact{
+    background-color: navy;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    gap: 20px;
+}
