@@ -35,7 +35,6 @@ nav{
 .cards{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:1 rem;
 }
 .card {
   background: #fff8e7;
