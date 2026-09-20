@@ -1,3 +1,6 @@
-let label="Read";
+let label = "Read";
 console.log(label);
-document.querySelector("#status");
+
+document.querySelector("#mark").addEventListener("click", function () {
+  document.querySelector("#status").textContent = label;
+});
