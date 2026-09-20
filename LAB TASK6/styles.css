@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: navy;
+}
+.hero{
+    position: relative;
+}
+#badge{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index:2;
+}
+.behind{
+    color:orange;
+    z-index:1;
+}
+   
+#contact{
+    background-color: navy;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    gap: 20px;
+}
